@@ -1,0 +1,19 @@
+{
+  "ssc_menu_title": "Stupid Strings Changer",
+  "ssc_config_menu_title": "Stupid Strings Changer",
+  "ssc_config_menu_desc": "Control SSC Options",
+  "ssc_malkovich_mode_title": "Malkovich Mode",
+  "ssc_malkovich_mode_desc": "Malkovich malkovich malkovich malkovich malkovich malkovich malkovich. Malkovich malkovich malkovich.",
+  "ssc_malkovich_mode_splashscreentext": "Edit mods/saves/ssc_options.json to disable Malkovich Mode",
+  "ssc_logging_mode_title": "Logging Mode",
+  "ssc_logging_mode_desc": "Changes the strings that SSC will keep track of. Use with caution, as it can quickly fill RAM",
+  "ssc_option_none": "None",
+  "ssc_option_gameonly": "Base Game Only",
+  "ssc_option_modonly": "BLT Mods Only",
+  "ssc_option_all": "All",
+  "ssc_logging_stf_title": "Save logged strings to a file",
+  "ssc_logging_stf_desc": "Allows for easier out-of-game investigation. Saves strings to:\n[PD2 install]/mods/logs/SSC-strings.txt",
+  "ssc_stringid_mode_title": "Render strings as their string IDs",
+  "ssc_stringid_mode_desc": "Renders all strings as their string IDs, can help with finding the string you're looking for.",
+  "ssc_stringid_mode_splashscreentext": "Edit mods/saves/ssc_options.json to disable String ID Mode\n(if you can't figure out the menus)"
+}

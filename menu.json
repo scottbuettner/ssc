@@ -1,0 +1,51 @@
+{
+	"menu_id" : "ssc_mod_options_menu",
+	"parent_menu_id" : "lua_mod_options_menu",
+	"title" : "ssc_config_menu_title",
+	"description" : "ssc_config_menu_desc",
+	"items" : [
+    {
+      "type": "toggle",
+      "id": "ssc_malkovich_mode",
+      "title": "ssc_malkovich_mode_title",
+      "description": "ssc_malkovich_mode_desc",
+      "callback": "callback_malkovich_mode",
+      "value": "malkovich_mode",
+      "default_value": false
+    },
+		{
+			"type": "toggle",
+			"id": "ssc_stringid_mode",
+			"title": "ssc_stringid_mode_title",
+      "description": "ssc_stringid_mode_desc",
+			"callback": "callback_stringid_mode",
+			"value": "stringid_mode",
+			"default_value": false
+		},
+		{
+			"type": "multiple_choice",
+			"id": "ssc_logging_mode",
+			"title": "ssc_logging_mode_title",
+			"description": "ssc_logging_mode_desc",
+			"callback": "callback_logging_mode",
+			"items": [
+				"ssc_option_none",
+				"ssc_option_gameonly",
+				"ssc_option_modonly",
+				"ssc_option_all"
+			],
+			"value": "logging_mode_numerical",
+			"default_value": 1
+		},
+		{
+			"type": "toggle",
+			"id": "ssc_logging_savetofile",
+			"title": "ssc_logging_stf_title",
+			"description": "ssc_logging_stf_desc",
+			"callback": "callback_logging_stf",
+			"value": "logging_stf",
+			"default_value": true
+		}
+	]
+
+}

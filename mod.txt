@@ -1,0 +1,18 @@
+{
+  "name" : "Stupid Strings Changer",
+  "description" : "Allows you to extract and modify strings in the game.",
+  "author" : "Zeke Sonxx",
+  "contact" : "http://steamcommunity.com/id/zekesonxx",
+  "version" : "1",
+  "priority" : 1000,
+  "hooks" : [
+    {
+    	"hook_id" : "lib/managers/menumanager",
+    	"script_path" : "SSC.lua"
+    },
+		{
+			"hook_id": "lib/managers/localizationmanager",
+			"script_path": "SSC.lua"
+		}
+  ]
+}
