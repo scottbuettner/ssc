@@ -8,6 +8,7 @@ copy:
 	mkdir -p "$(BUILDDIR)"
 	cd "build" && mkdir -p $(EXTRADIRS)
 	cp -r -t "$(BUILDDIR)" lib mod.txt *lua *.json LICENSE.txt
+	mv "$(BUILDDIR)/example.json" "build/saves/SSC/example.json"
 
 # regular zipping
 # 2.59 compression ratio

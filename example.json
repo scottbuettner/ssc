@@ -1,0 +1,5 @@
+{
+  "menu_visit_forum3": "This is an example JSON file to replace strings!\nUse SSC's logging modes and see if you can make some hilarous jokes.\nYou can edit this in mods/saves/SSC.json.\nTo get you going, this includes the text used for the example image.",
+  "hud_civilian_killed_title": "Walking Cop-Alarm Exterminated.",
+  "hud_civilian_killed_message": "Deducting $AMOUNT; for Bain's therapy"
+}
