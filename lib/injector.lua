@@ -52,9 +52,25 @@ function LocalizationManager:_ssc_logifneeded(source, string_id, str)
   end
 end
 
+LocalizationManager._logged_strings = {}
+
 function LocalizationManager:text(string_id, macros)
   if string_id == nil then return end --if you fail so do we
 
+  --[[
+    Just dump a table of all the macros everytime we see a new stringID. This will probably work.
+  ]]
+  if self._logged_strings[string_id] ~= true then
+    local file = io.open("mods/debug/string_" .. string_id .. ".txt", "w")
+    if file then
+      for k,v in pairs(macros) do
+        file:write(string.format("%s: %s\n", k, v)
+      end
+      file:close()
+    end
+    self._logged_strings[string_id] = true
+  end
+  
   --[[
     String ID mode
   ]]
